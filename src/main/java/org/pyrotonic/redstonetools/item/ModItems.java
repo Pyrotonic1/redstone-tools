@@ -18,7 +18,7 @@ public class ModItems {
 
     public static void registerModItems() {
         Redstonetools.LOGGER.info("Registering items!");
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(REDSTONE_SWORD);
         });
     }
