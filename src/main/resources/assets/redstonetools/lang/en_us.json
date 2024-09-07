@@ -1,3 +1,9 @@
 {
-  "item.redstonetools.redstone_sword": "Redstone Sword"
+  "item.redstonetools.redstone_sword": "Redstone Sword",
+  "item.redstonetools.redstone_axe": "Redstone Axe",
+  "item.redstonetools.redstone_pickaxe": "Redstone Pickaxe",
+  "item.redstonetools.redstone_shovel": "Redstone Shovel",
+  "item.redstonetools.redstone_hoe": "Redstone Hoe",
+  "item.redstonetools.redstone_core": "Redstone Core",
+  "itemgroup.redstonetools.redstone_tools_Group": "RT - Tools"
 }
