@@ -1,11 +1,16 @@
 {
   "schemaVersion": 1,
   "id": "redstonetools",
-  "version": "${version}",
-  "name": "RedstoneTools",
-  "description": "A mod that adds redstone tools (and maybe armor)",
-  "authors": [],
-  "contact": {},
+  "version": "1.0.0",
+  "name": "Redstone Tools",
+  "description": "A mod that adds redstone tools.",
+  "authors": ["Pyrontonic"],
+  "contact": {
+    "homepage": "https://github.com/Pyrotonic1/redstone-tools",
+    "sources": "https://github.com/Pyrotonic1/redstone-tools",
+    "issues": "https://github.com/Pyrotonic1/redstone-tools/issues",
+    "discord": "https://discord.gg/H7WbRGDwJJ"
+  },
   "license": "MIT",
   "icon": "assets/redstonetools/icon.png",
   "environment": "*",
@@ -21,8 +26,8 @@
     "redstonetools.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.16.5",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "1.21.1"
   }
 }

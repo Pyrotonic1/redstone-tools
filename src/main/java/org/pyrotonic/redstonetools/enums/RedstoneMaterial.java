@@ -12,9 +12,9 @@ public enum RedstoneMaterial implements ToolMaterial {
     REDSTONE(
             276,
             15,
-            7.5F,
+            8.0F,
             0.0F,
-            BlockTags.INCORRECT_FOR_IRON_TOOL,
+            BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
             Ingredient.ofItems(Items.REDSTONE)
     );
 
@@ -22,15 +22,15 @@ public enum RedstoneMaterial implements ToolMaterial {
     private final int durability, enchantability;
     private final float miningSpeedMultiplier, attackDamage;
     private final TagKey<Block> inverseTag;
-    private final Ingredient repairIngediant;
+    private final Ingredient repairIngredient;
 
-    RedstoneMaterial(int durability, int enchantability, float miningSpeedMultiplier, float attackDamage, TagKey inverseTag, Ingredient repairIngediant) {
+    RedstoneMaterial(int durability, int enchantability, float miningSpeedMultiplier, float attackDamage, TagKey inverseTag, Ingredient repairIngredient) {
         this.durability = durability;
         this.enchantability = enchantability;
         this.miningSpeedMultiplier = miningSpeedMultiplier;
         this.attackDamage = attackDamage;
         this.inverseTag = inverseTag;
-        this.repairIngediant = repairIngediant;
+        this.repairIngredient = repairIngredient;
     }
 
     @Override
@@ -60,7 +60,7 @@ public enum RedstoneMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return this.repairIngediant;
+        return this.repairIngredient;
     }
 
     @Override

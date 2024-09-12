@@ -5,5 +5,5 @@
   "item.redstonetools.redstone_shovel": "Redstone Shovel",
   "item.redstonetools.redstone_hoe": "Redstone Hoe",
   "item.redstonetools.redstone_core": "Redstone Core",
-  "itemgroup.redstonetools.redstone_tools_Group": "RT - Tools"
+  "itemGroup.redstonetools.redstone_tools_group": "Redstone Tools"
 }
